@@ -22,9 +22,10 @@ faveColors.push('pink')
 
 const numbers = [1, 2, 3, 4, 5]
 
-const middleNums = [1, 3]
+const middleNums = numbers.slice(1,4)
+console.log(middleNums)
 
-
+//Start at index 1, include all 4.
 //////////////////PROBLEM 4//////////////////// Extra credit
 /* 
   Create a function called 'bigOrSmall' that takes in one parameter, 'arr', 
@@ -38,4 +39,13 @@ const middleNums = [1, 3]
   Return the answers array inside of the function.
 */
 
-// CODE HERE
+function bigOrSmall(arr){
+  let answers =[]
+  for (let i = 0; i < arr.lengith; i++){
+    answers.push('big')
+  } else {
+    answers.push('small')
+  }
+}
+return answers
+}

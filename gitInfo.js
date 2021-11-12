@@ -34,6 +34,7 @@ let gitHubDefinition = 'A website where you can upload your code and view other 
     following the guidelines above to describe the init command.
 */
 
+
 let init = "This step creates a git repository for your code, the command is git init."
 
 
@@ -42,6 +43,11 @@ let init = "This step creates a git repository for your code, the command is git
     Create an object called 'clone' with 'description' and 'code' properties 
     following the guidelines above to describe the clone command.
 */
+const clone = {
+    description:''
+    code:''
+}
+
 
 let clone = "This step takes a copy of the code that is already uploaded on Github, and puts it on your local device. The command line is git clone REPO_URL"
 

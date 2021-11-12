@@ -9,7 +9,7 @@
 2. Analysis of Requirements
 3. Design
 4. Implementation
-5. Testing & Integration
+5. Testing and Integration
 6. Maintain 
 
 
@@ -19,9 +19,9 @@
     and set the values of each variable to a definition of the step.
 */
 
-let planning = "1"
-let analysisOfRequirements = "2"
-let Design = "3"
-let implementation = "4"
-let testing&Integration = "5"
-let maintain = "6"
+let planning = 'This is when the goal of the software is determined and defined.'
+let analysisOfRequirements = "This is the process of determinig user expectations for a new product. this focuses on the tasks that determine the conditions needed to alter a product."
+let Design = 'This phase transforms all the requirements into complete, detailed system design specifications.'
+let implementation = 'This phase gets everything rolling! It puts the plan into action in order to accomplish the objectives.'
+let testingAndIntegration = 'This phase tests all the plans that have been initiated, it tests the software systems performance, functionality and reliability.'
+let maintain = 'This phase continuously occurs after the software becomes operational. It upgrades, repairs, and fixes the software if something happens.'
